@@ -61,3 +61,11 @@ div a {
 div a:hover {
     color: blue;
 }
+
+.daftar{
+    display: inline;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    color: #ffff;
+}
