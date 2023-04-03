@@ -1,3 +1,11 @@
+*{
+    margin: 0 auto;
+}
+
+body {
+background: url("./images/bg.jpg");
+}
+
 .brown-sugar{
     color: brown;
     font-family: "Roboto" ;
@@ -11,4 +19,45 @@
     margin-left: 100px;
     background-color: aqua;
     padding: 20px;
+    display: block;
+}
+
+.box{
+    margin-top: 10px;
+    width: 350px;
+    background-color:blanchedalmond ;
+    margin-right: 10px;
+    float: left;
+    padding: 30px;
+}
+
+.clear {
+    float: clear;
+}
+
+p::first-letter{
+    font-size: xx-large;
+}
+
+#box-head {
+    margin-top: 10px;
+    width: 900px;
+    background-color: #ffff;
+    padding: 20px;
+}
+
+#box-body {
+    margin-top: 10px;
+    width: 900px;
+    background-color: #ffff;
+    padding: 5px;
+    height: 300px;
+}
+
+div a {
+    color: black;
+}
+
+div a:hover {
+    color: blue;
 }
